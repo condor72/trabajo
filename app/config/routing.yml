@@ -22,3 +22,12 @@ paginas_estaticas:
     resource: routing_paginas.yml
     prefix:   /sitio
     defaults: { _controller: FrameworkBundle:Template:template }
+
+pagina_ayuda:
+    path:  /ayuda/
+    defaults: { _controller: FrameworkBundle:Template:template, template: 'OfertaBundle:Default:ayuda.html.twig'}
+    
+_paginas_fijas:
+    resource: routing_fijas.yml
+    prefix:   /pagina
+    defaults: { _controller: FrameworkBundle:Template:template }

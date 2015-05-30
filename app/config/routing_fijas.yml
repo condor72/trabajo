@@ -1,0 +1,11 @@
+pagina_fijas_ayuda:
+    path:   /ayuda
+    defaults: { template: 'OfertaBundle:Default:ayuda.html.twig'}
+
+pagina_fijas_privacidad:
+    path:   /privacidad
+    defaults: { template: 'OfertaBundle:Default:privacidad.html.twig'}
+
+pagina_fijas_condiciones:
+    path:   /condiciones
+    defaults: { template: 'OfertaBundle:Default:condiciones.html.twig'}

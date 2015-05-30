@@ -1,11 +1,11 @@
-pagina_ayuda:
+pagina_sitio_ayuda:
     path:   /ayuda
     defaults: { template: 'OfertaBundle:Sitio:ayuda.html.twig'}
 
-pagina_privacidad:
+pagina_sitio_privacidad:
     path:   /privacidad
     defaults: { template: 'OfertaBundle:Sitio:privacidad.html.twig'}
 
-pagina_condiciones:
+pagina_sitio_condiciones:
     path:   /condiciones
     defaults: { template: 'OfertaBundle:Sitio:condiciones.html.twig'}
